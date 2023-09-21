@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #E2E9F9;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    width: 100%;
+    height: 100vh;
+    max-width: 1050px;
+    max-height: 75vh;
+    background: #ffff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.search-container {
+    display: flex;
+    gap: 150px;
+    margin-top: 10px;
+}
+
+.search-container input {
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #87A0CE;
+}
+
+.search-container ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.users-container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.user-profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 310px;
+    height: 180px;
+    padding: 0 10px 0 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.user-profile:hover {
+    border: 1px solid #849fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+}
+
+.user-profile .name {
+    font-weight: 700;
+}
+
+.user-profile .address {
+    font-weight: 300;
+}
+
+.user-profile .hobby {
+    font-size: 11px;
+    font-weight: 400;
+    color: #849fff;
+    padding: 1px 5px 1px 5px;
+    border: 1px solid #849fff;
+    border-radius: 10px;
+}
+
+.user-profile img{
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+    border-radius: 50%;
+}

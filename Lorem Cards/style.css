@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(235,224,129);
+    background: radial-gradient(circle, rgba(235,224,129,1) 0%, rgba(53,143,171,1) 64%, rgba(72,121,217,1) 100%);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    background: #1f2a2e;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    height: 600px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 600px;
+    text-align: right;
+    gap: 20px;
+    gap: 30px;
+}
+
+.content-one {
+    color: white;
+    margin-top: 200px;
+    padding: 30px;
+}
+
+.content-one h1 {
+    font-size: 50px;
+    background: radial-gradient(circle, rgba(235,224,129,1) 0%, rgba(53,143,171,1) 64%, rgba(72,121,217,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+.content-one p {
+    background: radial-gradient(circle, rgba(235,224,129,1) 0%, rgba(53,143,171,1) 64%, rgba(72,121,217,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    width: 100%;
+}
+
+.icons {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    /* padding: 20px; */
+    /* position: absolute;
+    left: 320px;
+    bottom: 200px; */
+}
+
+.icons i {
+    background: #4083c5;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+i:nth-child(1) {
+    background: #87d649;
+}
+
+i:nth-child(2) {
+    background: #5ad69b;
+}
+
+i:nth-child(3) {
+    background: #bcdb40;
+}
+
+i:nth-child(4) {
+    background: #d1c238;
+}
+
+i:nth-child(5) {
+    background: #37a9cc;
+}
+
+.content img {
+    width: 500px;
+    height: 600px;
+}
+
+#img2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

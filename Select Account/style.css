@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f4fb;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 100%;
+    max-width: 900px;
+    height: 100vh;
+    max-height: 600px;
+    background: #fff;
+    padding: 130px;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 200px;
+    border: 15px solid  #eaf0fa;
+    gap: 10px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.profile p {
+    font-size: 13px;
+}
+
+.profile i {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.profile:nth-child(3) {
+    background: none;
+    border: none;
+    font-size: 50px;
+}
+
+/* .profile div {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    background: #edf2fa;
+    z-index: 1;
+} */
+
+.profile img {
+    width: 60px;
+    border-radius: 50%;
+}

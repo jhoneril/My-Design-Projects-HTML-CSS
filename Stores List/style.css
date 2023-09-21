@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #1c1a39;
+    color: #afabe6;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    background: #121129;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.card-container h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.input-container {
+    margin-top: 30px;
+}
+
+.input-container input {
+    padding: 10px;
+    width: 130px;
+    margin-right: 20px;
+    border: 1px solid #afabe6;
+    background: none;
+    color: #afabe6
+}
+
+.input-container label {
+    font-size: 12px;
+}
+
+.input-container span {
+    color: #746CF7;
+}
+
+.main-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.address, .time {
+    font-size: 15px;   
+    font-weight: 300;
+}
+
+.button-container button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: #746CF7;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.box {
+    position: relative;
+}
+
+.status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 9px;
+    color: white;
+    padding: 1px 3px 1px 3px;
+    border-radius: 20px;
+}
+
+.box:nth-child(1) .status {
+    background: #ff5dab;
+}
+
+.box:nth-child(2) .status {
+    background: #00bd9b;
+}
+
+.box-container {
+    padding: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    padding: 150px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
